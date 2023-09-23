@@ -1,11 +1,16 @@
 {
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "An application that creates logos",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
   "dependencies": {
-    "inquirer": "^9.2.11"
+    "inquirer": "^8.2.4"
   },
   "devDependencies": {
     "jest": "^29.7.0"
-  },
-  "scripts": {
-    "test": "jest"
   }
 }
